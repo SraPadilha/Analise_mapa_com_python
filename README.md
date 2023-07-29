@@ -26,7 +26,7 @@ popups e camadas de informações. Essa biblioteca é realmente útil, especialm
     import folium
     import osmnx as ox
   
-#Coordenadas especificadas 
+#Coordenadas especificadas.
 
 (Aqui começaram as dificuldades, pois queria uma área grande, mas as coordenadas acabam sendo um
 pouco imprecisas, pois não demarcam uma área muito grande. Isso pode ser um problema mais tarde.
