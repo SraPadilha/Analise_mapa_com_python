@@ -47,8 +47,8 @@ Escolha suas coordenadas, pode-se obter essas informações através do Google M
     ]
   
  # Encontrar as coordenadas extremas 
-(Aqui foi basicamente o ajuste para separar as coordenadas acima em norte, sul, leste e oeste,
-aplicando o valor máximo e mínimo de cada uma, o que nos ajudará a ter uma leitura de área, em vez de apenas um ponto específico.)
+  (Aqui foi basicamente o ajuste para separar as coordenadas acima em norte, sul, leste e oeste,
+  aplicando o valor máximo e mínimo de cada uma, o que nos ajudará a ter uma leitura de área, em vez de apenas um ponto específico.)
 
     lats, lons = zip(*coordenadas)   
     norte, sul = max(lats), min(lats)
@@ -72,7 +72,6 @@ garantindo que todas as coordenadas estejam dentro da área visível do mapa. Vi
 # Contar a quantidade de árvores
       quantidade_arvores = len(trees)
   
-# Adicionar um marcador com a quantidade de árvores no
 # Adicionar um marcador com a quantidade de árvores no mapa
     folium.Marker(
           location=[lat, lon],
